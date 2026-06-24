@@ -1,1 +1,3 @@
-# CalculatorTeam04
+# 계산기
+
+## 지원 기능
