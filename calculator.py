@@ -12,6 +12,6 @@ operations = {
     "/": divide,
     "*": multiply,
     "//": integer_division,
-    "***": root,
+    "**": root,
     "min": min,
 }
