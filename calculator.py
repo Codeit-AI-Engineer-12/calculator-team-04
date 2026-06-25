@@ -1,6 +1,6 @@
 from ops.add import add
-
-operations = {"+": add}
 from ops.divide import divide
+from ops.subtract import subtract
+from ops.multiply import multiply
 
-operations = {"/": divide}
+operations = {"+": add , "-": subtract, "/": divide, "*": multiply}
