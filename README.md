@@ -10,4 +10,4 @@ Pyton 활용 계산기
 | 뺄셈 | `subtract` | a, b 두 수를 받아 차를 반환함 | 숫자가 아니면 "숫자로 처주세요" 반환 |
 | 곱셈 | `multiply` | a, b 두 수를 받아 곱한 값을 반환함 | 숫자가 아니면 ValueError 발생 |
 | 나눗셈 | `divide` | a, b 두 수를 받아 a를 b로 나눈 값을 반환 | b가 0이면 ValueError 발생 |
-
+| 최솟값 | `min` | a, b 두 수를 받아 더 작은 값을 반환 | b가 0이면 ValueError 발생 |
