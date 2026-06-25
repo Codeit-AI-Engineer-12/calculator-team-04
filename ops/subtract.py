@@ -3,4 +3,4 @@ def subtract(a, b):
         return "숫자로 쳐주세요"
     return a - b
 
-# 우엥 뭐가 뭔지 모르겠어영 우엥 GGGGGG
+# 우엥 뭐가 뭔지 모르겠어영 우엥 
