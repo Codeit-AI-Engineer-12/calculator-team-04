@@ -10,4 +10,5 @@ Pyton 활용 계산기
 | 뺄셈 | `subtract` | a, b 두 수를 받아 차를 반환함 | 숫자가 아니면 "숫자로 처주세요" 반환 |
 | 곱셈 | `multiply` | a, b 두 수를 받아 곱한 값을 반환함 | 숫자가 아니면 ValueError 발생 |
 | 나눗셈 | `divide` | a, b 두 수를 받아 a를 b로 나눈 값을 반환 | b가 0이면 ValueError 발생 |
+| 정수나눗셈 | 'integer division' | a, b 두 수를 받아 a를 b로 나눈 값의 나머지를 제외한 정수 반환 | b가 0이면 ValueError 발생 * |
 | 거듭제곱근 | `root` | a, b 두 수를 받아 a의 b제곱근 값을 반환함 | 숫자가 아니면 "숫자로 쳐주세요" 반환 |
