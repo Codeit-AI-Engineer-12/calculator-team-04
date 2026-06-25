@@ -3,6 +3,7 @@ from ops.divide import divide
 from ops.integer_division import integer_division
 from ops.multiply import multiply
 from ops.subtract import subtract
+from ops.root import root
 
 operations = {
     "+": add,
