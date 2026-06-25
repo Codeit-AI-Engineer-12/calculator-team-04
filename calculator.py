@@ -8,6 +8,6 @@ operations = {
     "+": add ,
     "-": subtract, 
     "/": divide, 
-    "*": multiply
+    "*": multiply,
     "**": root
     }
