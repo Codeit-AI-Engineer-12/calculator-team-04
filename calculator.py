@@ -1,14 +1,17 @@
 from ops.add import add
 from ops.divide import divide
-from ops.multiply import multiply
+from ops.integer_division import integer_division
 from ops.min import min
+from ops.multiply import multiply
+from ops.root import root
 from ops.subtract import subtract
 
-
 operations = {
-    "+": add ,
-    "-": subtract, 
-    "/": divide, 
+    "+": add,
+    "-": subtract,
+    "/": divide,
     "*": multiply,
-    "min": min
-    }
+    "//": integer_division,
+    "***": root,
+    "min": min,
+}
