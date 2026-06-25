@@ -1,13 +1,13 @@
 # 계산기
 
+Pyton 활용 계산기 
+
 ## 지원 기능
 
 | 기능 | 함수명 | 설명 | 비고 |
 |------|--------|------|------|
-| 덧셈 | add | a, b 두 수를 받아 합을 반환함 | 숫자가 아니면 "메롱" 반환 |
-| 뺄셈 | subtract | a, b 두 수를 받아 차를 반환함 | 숫자가 아니면 "숫자로 처주세요" 반환 |
-| 곱셈 | multiply | a, b 두 수를 받아 곱한 값을 반환함 | 숫자가 아니면 ValueError 발생 |
-| 나눗셈 | divide | a, b 두 수를 받아 a를 b로 나눈 값을 반환 | b가 0이면 ValueError 발생 |
-| 정수나눗셈 | integer division | a, b 두 수를 받아 a를 b로 나눈 값의 나머지를 제외한 정수 반환 | b가 0이면 ValueError 발생 * |
-
-
+| 덧셈 | `add` | a, b 두 수를 받아 합을 반환함 | 숫자가 아니면 None 반환 |
+| 뺄셈 | `subtract` | a, b 두 수를 받아 차를 반환함 | 숫자가 아니면 "숫자로 처주세요" 반환 |
+| 곱셈 | `multiply` | a, b 두 수를 받아 곱한 값을 반환함 | 숫자가 아니면 ValueError 발생 |
+| 나눗셈 | `divide` | a, b 두 수를 받아 a를 b로 나눈 값을 반환 | b가 0이면 ValueError 발생 |
+| 정수나눗셈 | 'integer division' | a, b 두 수를 받아 a를 b로 나눈 값의 나머지를 제외한 정수 반환 | b가 0이면 ValueError 발생 * |
