@@ -9,5 +9,5 @@ operations = {
     "-": subtract, 
     "/": divide, 
     "*": multiply
-    "**":root
+    "**": root
     }
