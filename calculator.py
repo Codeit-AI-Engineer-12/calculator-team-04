@@ -1,11 +1,15 @@
 from ops.add import add
 from ops.divide import divide
-from ops.subtract import subtract
+from ops.max import max
 from ops.multiply import multiply
+from ops.subtract import subtract
 
+# fmt: off
 operations = {
     "+": add ,
     "-": subtract, 
     "/": divide, 
-    "*": multiply
+    "*": multiply,
+    "max": max
     }
+# fmt: on
