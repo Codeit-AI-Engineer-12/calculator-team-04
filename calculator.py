@@ -1,4 +1,5 @@
 from ops.add import add
+from ops.average import average
 from ops.divide import divide
 from ops.integer_division import integer_division
 from ops.multiply import multiply
@@ -14,4 +15,5 @@ operations = {
     "//": integer_division,
     "**": root,
     "%": modulo 
+    "avg": average,
 }
