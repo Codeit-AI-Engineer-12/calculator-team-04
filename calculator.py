@@ -1,3 +1,4 @@
+from ops.absolute import absolute
 from ops.add import add
 from ops.average import average
 from ops.divide import divide
@@ -14,4 +15,5 @@ operations = {
     "//": integer_division,
     "**": root,
     "avg": average,
+    "abs": absolute,
 }
